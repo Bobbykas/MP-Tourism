@@ -1,0 +1,124 @@
+@charset "ISO-8859-1";
+.Lo {
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkslateblue;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navebar {
+    width: 100%;
+    border: 1px solid black;
+    background: linear-gradient(white 0px, transparent);
+    height: 55px;
+    backdrop-filter: blur(1px);
+
+}
+
+.im {
+    width: 40px;
+    position: relative;
+    left: 1460px;
+    top: -50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 10px;
+    position: relative;
+    left: 1010px;
+    top: 10px;
+    font-size:20px;
+    font-weight: bolder;
+    transition: all 500ms;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(images//desktop-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.dd {
+    width: 620px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+   
+}
+
+div h1 {
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 10px;
+    font-size: 45px;
+}
+
+div h3 {
+    position: relative;
+    left: 110px;
+    font-size: 35px;
+    color: white;
+}
+
+div p {
+    position: relative;
+    left: 125px;
+    font-size: 20px;
+    color: white;
+}
+
+div a {
+    background-color: white;
+    padding: 15px 30px;
+    font-size: 12px;
+
+}
+.change::after{
+    content: '';
+    animation: changee 10s infinite linear;
+    color: darkslateblue;
+}
+@keyframes changee {
+    0%{
+        content: "JAIPUR";
+    }
+    25%{
+        content: "MUMBAI";
+    }
+    50%{
+        content: "GOA";
+    }
+    75%{
+        content: "AGRA";
+    }
+    100%{
+        content: "INDORE";
+    }
+}
+
